@@ -10,7 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
   <title>
-    DS - Nossa Empresa
+    Nossa Empresa
   </title>
 </head>
 
@@ -19,9 +19,9 @@
     <div class="container mx-auto">
       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" aria-label="Eleventh navbar">
         <div class="container-fluid">
-          <img src="images/logo.png" class="me-1" width="50px">
+          <img src="../images/logo.png" class="me-1" width="50px">
 
-          <a class="navbar-brand" href="#">Doce Sabor</a>
+          <a class="navbar-brand" href="../index.php">Doce Sabor</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar-topo" aria-controls="Navbar-topo" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,11 +30,10 @@
 
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.php">Início</a>
+                <a class="nav-link" aria-current="page" href="../index.php">Início</a>
               </li>
-
               <li class="nav-item">
-                <a class="nav-link" href="quem_somos.php">Quem Somos</a>
+                <a class="nav-link active" href="quem_somos.php">Quem Somos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="fale_conosco.php">Fale Conosco</a>
@@ -51,36 +50,56 @@
 
   </header>
   <main>
-    <div class="pt-5">
+    <div class="text-start pt-5 ">
+      <p class="display-5  text-start pt-3 ms-2">Doce Sabor</p>
+    </div>
+    <div class=" d-flex flex-column">
 
+      <div class="d-flex flex-row">
+        <img src="../images/bg2.png" class="rounded mx-auto d-block">
+      </div>
 
-      <h3 class="h3 pt-5 float-right">Quem Somos</h3>
-      <div>
+      <div class="d-flex flex-row m-3">
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis molestiae accusantium deserunt voluptates debitis, voluptatum facilis laboriosam praesentium non eligendi libero eveniet quae facere iure quidem eos sed illo vero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit necessitatibus, consectetur, iure tempora nobis accusantium eum eaque dolore minima unde architecto. Officiis aperiam cumque provident explicabo earum cupiditate dolorum debitis.lor Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dicta cupiditate obcaecati minima quisquam corrupti adipisci, necessitatibus repellat incidunt earum sint alias, deserunt ea officiis. Odio inventore officia autem quae? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus odio quas iusto veritatis, sit dignissimos a expedita! Earum dolorem officia fugiat delectus aut quibusdam, excepturi in facere deserunt eligendi expedita?
-          <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis molestiae accusantium deserunt voluptates debitis, voluptatum facilis laboriosam praesentium non eligendi libero eveniet quae facere iure quidem eos sed illo vero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit necessitatibus, consectetur, iure tempora nobis accusantium eum eaque dolore minima unde architecto. Officiis aperiam cumque provident explicabo earum cupiditate dolorum debitis.lor Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dicta cupiditate obcaecati minima quisquam corrupti adipisci, necessitatibus repellat incidunt earum sint alias, deserunt ea officiis. Odio inventore officia autem quae? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus odio quas iusto veritatis, sit dignissimos a expedita! Earum dolorem officia fugiat delectus aut quibusdam, excepturi in facere deserunt eligendi expedita?
-          </p>
-          
-          <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis molestiae accusantium deserunt voluptates debitis, voluptatum facilis laboriosam praesentium non eligendi libero eveniet quae facere iure quidem eos sed illo vero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit necessitatibus, consectetur, iure tempora nobis accusantium eum eaque dolore minima unde architecto. Officiis aperiam cumque provident explicabo earum cupiditate dolorum debitis.lor Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dicta cupiditate obcaecati minima quisquam corrupti adipisci, necessitatibus repellat incidunt earum sint alias, deserunt ea officiis. Odio inventore officia autem quae? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus odio quas iusto veritatis, sit dignissimos a expedita! Earum dolorem officia fugiat delectus aut quibusdam, excepturi in facere deserunt eligendi expedita?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, maiores iure labore totam repellendus blanditiis. Consectetur, quisquam. Sint quam, architecto numquam fuga adipisci earum voluptatibus. Quis iure necessitatibus suscipit beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptates molestiae dolores porro tenetur numquam sequi quibusdam, repellendus possimus natus doloremque, praesentium neque. Quam aliquid a molestias optio repudiandae repellat?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, maiores iure labore totam repellendus blanditiis. Consectetur, quisquam. Sint quam, architecto numquam fuga adipisci earum voluptatibus. Quis iure necessitatibus suscipit beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptates molestiae dolores porro tenetur numquam sequi quibusdam, repellendus possimus natus doloremque, praesentium neque. Quam aliquid a molestias optio repudiandae repellat?
         </p>
 
       </div>
-      <img src="../images/loja1.jpg" class="rounded image-fluid float-left">
-        
 
+      <div class="d-flex flex-row m-3">
+        <p>
+          <span class="fw-bold">TOPIC 1 <br> </span>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, maiores iure labore totam repellendus blanditiis. Consectetur, quisquam. Sint quam, architecto numquam fuga adipisci earum voluptatibus. Quis iure necessitatibus suscipit beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptates molestiae dolores porro tenetur numquam sequi quibusdam, repellendus possimus natus doloremque, praesentium neque. Quam aliquid a molestias optio repudiandae repellat?
+        </p>
+        <p>
+          <span class="fw-bold text-center">TOPIC 2 <br> </span>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, maiores iure labore totam repellendus blanditiis. Consectetur, quisquam. Sint quam, architecto numquam fuga adipisci earum voluptatibus. Quis iure necessitatibus suscipit beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptates molestiae dolores porro tenetur numquam sequi quibusdam, repellendus possimus natus doloremque, praesentium neque. Quam aliquid a molestias optio repudiandae repellat?
+        </p>
+        <p>
+          <span class="fw-bold">TOPIC 3 <br> </span>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, maiores iure labore totam repellendus blanditiis. Consectetur, quisquam. Sint quam, architecto numquam fuga adipisci earum voluptatibus. Quis iure necessitatibus suscipit beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptates molestiae dolores porro tenetur numquam sequi quibusdam, repellendus possimus natus doloremque, praesentium neque. Quam aliquid a molestias optio repudiandae repellat?
+        </p>
 
+      </div>
 
     </div>
+
   </main>
+  
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted"> Deyvson Felipe Pereira de Assis - 20087483-5<br>SISTEMAS PARA INTERNET - UNICESUMAR <br> Campina Grande/PB 2021 <br> BackEnd I</p>
 
-  <footer>
 
-    <p class="h5 text-center text-muted border-top"> Deyvson Felipe Pereira de Assis</p>
-    <p class="h5 text-center text-muted">SISTEMAS PARA INTERNET - UNICESUNAR</p>
-    <p class="h5 text-center text-muted">SISTEMAS PARA INTERNET</p>
-    <p class="h5 text-center text-muted">&copy; 2021 </p>
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <img src="/images/logo.png" alt="" width="100px">
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="../index.php" class="nav-link px-2 text-muted">Início</a></li>
+      <li class="nav-item"><a href="quem_somos.php" class="nav-link px-2 text-muted">Quem Somos</a></li>
+      <li class="nav-item"><a href="fale_conosco.php" class="nav-link px-2 text-muted">Fale Conosco</a></li>
+    </ul>
   </footer>
 
 
