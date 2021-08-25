@@ -67,26 +67,34 @@
 
       </div>
 
-      <div class="d-flex flex-row m-3">
-        <p>
-          <span class="fw-bold">TOPIC 1 <br> </span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, maiores iure labore totam repellendus blanditiis. Consectetur, quisquam. Sint quam, architecto numquam fuga adipisci earum voluptatibus. Quis iure necessitatibus suscipit beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptates molestiae dolores porro tenetur numquam sequi quibusdam, repellendus possimus natus doloremque, praesentium neque. Quam aliquid a molestias optio repudiandae repellat?
-        </p>
-        <p>
-          <span class="fw-bold text-center">TOPIC 2 <br> </span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, maiores iure labore totam repellendus blanditiis. Consectetur, quisquam. Sint quam, architecto numquam fuga adipisci earum voluptatibus. Quis iure necessitatibus suscipit beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptates molestiae dolores porro tenetur numquam sequi quibusdam, repellendus possimus natus doloremque, praesentium neque. Quam aliquid a molestias optio repudiandae repellat?
-        </p>
-        <p>
-          <span class="fw-bold">TOPIC 3 <br> </span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, maiores iure labore totam repellendus blanditiis. Consectetur, quisquam. Sint quam, architecto numquam fuga adipisci earum voluptatibus. Quis iure necessitatibus suscipit beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptates molestiae dolores porro tenetur numquam sequi quibusdam, repellendus possimus natus doloremque, praesentium neque. Quam aliquid a molestias optio repudiandae repellat?
-        </p>
+      <div class="mx-auto">
+        <div class="float-start w-25 p-3">
+          <h5 class="h5">Topic 1</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nisi eius ad, nesciunt rerum odio vitae quibusdam. Consectetur, dignissimos. Quis ea sequi dolorum unde eaque reiciendis distinctio delectus necessitatibus nesciunt.</p>
+        </div>
+        <div class="float-start w-25 p-3">
+          <h5>Topic 2</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nisi eius ad, nesciunt rerum odio vitae quibusdam. Consectetur, dignissimos. Quis ea sequi dolorum unde eaque reiciendis distinctio delectus necessitatibus nesciunt.</p>
+        </div>
+
+        <div class="float-start w-25 p-3 ">
+          <h5>Topic 3</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nisi eius ad, nesciunt rerum odio vitae quibusdam. Consectetur, dignissimos. Quis ea sequi dolorum unde eaque reiciendis distinctio delectus necessitatibus nesciunt.</p>
+        </div>
+
+        <div class="float-start w-25 p-3">
+          <h5>Topic 3</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nisi eius ad, nesciunt rerum odio vitae quibusdam. Consectetur, dignissimos. Quis ea sequi dolorum unde eaque reiciendis distinctio delectus necessitatibus nesciunt.</p>
+        </div>
+
+
 
       </div>
 
     </div>
 
   </main>
-  
+
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
     <p class="col-md-4 mb-0 text-muted"> Deyvson Felipe Pereira de Assis - 20087483-5<br>SISTEMAS PARA INTERNET - UNICESUMAR <br> Campina Grande/PB 2021 <br> BackEnd I</p>
 

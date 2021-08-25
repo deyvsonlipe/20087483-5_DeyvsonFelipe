@@ -21,6 +21,27 @@ $dados=array(
 		"descricao" =>"Torta de Beijinho com recheio de coco e doce de leite.
 		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
 		"preco" => 49.90
+	),
+	array(
+		"codigo" => "0004",
+		"produto" => "Brigadeiros",
+		"descricao" =>"Brigadeiro vários sabores.
+		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+		"preco" => 4.99
+	),
+	array(
+		"codigo" => "0005",
+		"produto" => "Trufas",
+		"descricao" =>"Trufas vários sabores.
+		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+		"preco" => 9.90
+	),
+	array(
+		"codigo" => "0006",
+		"produto" => "Bolo de Rolo",
+		"descricao" =>"Bolo de rolo, o mais gostoso.
+		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+		"preco" => 24.99
 	)
 )
 ;

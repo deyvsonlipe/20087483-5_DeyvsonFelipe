@@ -9,9 +9,12 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-  <title>
-    Fale Conosco
-  </title>
+
+<?php
+	include_once("../dados/dados.php");
+  
+  print  "<title>DS-".$dados[1]["produto"]."</title>";
+?>
 </head>
 
 <body>
@@ -36,7 +39,7 @@
                 <a class="nav-link" href="quem_somos.php">Quem Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="fale_conosco.php">Fale Conosco</a>
+                <a class="nav-link" href="fale_conosco.php">Fale Conosco</a>
               </li>
             </ul>
             <form>
@@ -50,56 +53,55 @@
 
   </header>
   <main>
+    <div class="text-start pt-5 ">
+			<?php
+				include_once("../dados/dados.php");
+ 				print  '<p class="display-5  text-start pt-3 ms-2">'.$dados[1]['produto'].'</p>';
+			?>
+    </div>
+    <div class=" d-flex flex-column">
 
+      <div class="d-flex flex-row">
+        <img src="../images/mkt2.png" width="500px" class="rounded mx-auto d-block">
+      </div>
 
-    <div id="fale_conosco pt-5 border border-warning">
+      <div class="d-flex flex-row m-3">
+        <?php
+					include_once("../dados/dados.php");
+					print  '<p>'.$dados[1]['descricao'].'</p>';
+				?>
 
-      <div class="text-start pt-5 ">
-        <p class="display-5  text-start pt-3 ms-2">Fale Conosco</p>
 
       </div>
 
-      <div class=" w-50 p-3 float-start">
+      <div class="mx-auto m-3">
+        <div class="float-start">
+          <img src="../images/mkt2.png" width="250px" class="rounded m-3">
+          </div>
+        <div class="float-start">
+          <img src="../images/mkt2.png" width="250px" class="rounded m-3">
+          </div>
 
-        <form>
-          <div class="form-row ms-5">
-            <div class="form-group col-md-6">
-              <label for="inputname">Nome</label>
-              <input type="name" class="form-control" id="inputname" placeholder="Fulano de Tal">
+        <div class="float-start">
+          <img src="../images/mkt2.png" width="250px" class="rounded m-3">
+        </div>
+        
 
-              <label for="inputtelefone">Telefone</label>
-              <input type="telefone" class="form-control" id="inputtelefone" placeholder="88 95555-5555">
+      </div>
+      <?php
+                include_once("../dados/dados.php");
+                print  '<h2 class="mx-auto text-danger"> R$' . $dados[1]['preco'] . '</h2>';
 
-              <label for="inputemail">Email</label>
-              <input type="email" class="form-control" id="inputemail" placeholder="email@example.com">
-
-              <div class="form-floating pt-2">
-                <textarea class="form-control" placeholder="Escreva sua mensagem aqui..." id="floatingTextarea2" style="height: 100px"></textarea>
-                <label for="floatingTextarea2">Mensagem</label>
-              </div>
-
-              <div class="pt-2">
-                <button type="submit" class="btn btn-primary ">Enviar</button>
-              </div>
+                ?>
+            <div class="pt-2 mx-auto">
+                <a class="btn btn-warning btn-lg" href="fale_conosco.php" role="button">Comprar</a>
             </div>
 
-          </div>
-        </form>
-      </div>
-      <div class="float-end w-50 p-3">
-        <div class="text-start">
-          <p class="h6">Localização:</p>
-        </div>
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7916.507965170778!2d-35.89037144018976!3d-7.211841012254269!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x26c7e4831695edb6!2sUniCesumar%20-%20Campina%20Grande!5e0!3m2!1spt-BR!2sbr!4v1629157362928!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
-        </iframe>
-      </div>
-    </div>
-    <div class="float-none ">
-      .
     </div>
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+  </main>
+  
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
     <p class="col-md-4 mb-0 text-muted"> Deyvson Felipe Pereira de Assis - 20087483-5<br>SISTEMAS PARA INTERNET - UNICESUMAR <br> Campina Grande/PB 2021 <br> BackEnd I</p>
 
 
@@ -113,17 +115,6 @@
       <li class="nav-item"><a href="fale_conosco.php" class="nav-link px-2 text-muted">Fale Conosco</a></li>
     </ul>
   </footer>
-
-
-
-
-  </main>
-
-
-
-
-
-
 
 
 

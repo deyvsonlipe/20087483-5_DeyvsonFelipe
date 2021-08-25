@@ -56,23 +56,33 @@
     </div>
     <div class="carousel-inner   ">
       <div class="carousel-item active">
-      <img src="images/slide1.png" class="d-block w-100" alt="...">
+      <img src="images/slide2.png" class="d-block w-100" alt="...">
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>Example 1</h1>
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Veja Mais</a></p>
+          <?php
+					include_once("dados/dados.php");
+					  print  '<h1>'.$dados[0]['produto'].'</h1>';
+
+            print '<p class="text-truncate">'.$dados[0]['descricao'].'</p>';
+
+            print '<p><a class="btn btn-lg btn-primary" href="/pages/produto1.php">Veja Mais</a></p>';
+            ?>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-      <img src="images/slide2.png" class="d-block w-100 " alt="...">
+      <img src="/images/slide1.png" class="d-block w-100 " alt="...">
 
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>Another example 2.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Veja Mais</a></p>
+          <?php
+					include_once("dados/dados.php");
+					  print  '<h1>'.$dados[1]['produto'].'</h1>';
+
+            print '<p class="text-truncate">'.$dados[1]['descricao'].'</p>';
+
+            print '<p><a class="btn btn-lg btn-primary" href="/pages/produto2.php">Veja Mais</a></p>';
+            ?>
           </div>
         </div>
       </div>
@@ -81,9 +91,14 @@
 
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>One more for good 3</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Veja Mais</a></p>
+          <?php
+					include_once("dados/dados.php");
+					  print  '<h1>'.$dados[2]['produto'].'</h1>';
+
+            print '<p class="text-truncate">'.$dados[2]['descricao'].'</p>';
+
+            print '<p><a class="btn btn-lg btn-primary" href="/pages/produto3.php">Veja Mais</a></p>';
+            ?>
           </div>
         </div>
       </div>
@@ -113,12 +128,12 @@
 		foreach($dados as $dado){
       $i++;
 			print '<div class="col-lg-4 ">';
-    	print '<img src="images/mkt'.$i.'.png" width="140px" height="140px"';
+    	print '<img src="images/mkt'.$i.'.png" class="rounded-circle" width="140px" height="140px"';
 			echo "<br><h6> Cod.: ".$dado["codigo"]. "</h6>";
 			echo '<h2 class="h2">'.$dado["produto"]. "</h2>";
 			echo "<p>".$dado["descricao"]. "</p>";
-			echo '<p class="h5"> R$'.$dado["preco"]. "</p>";
-			print '<p><a class="btn btn-secondary" href="#">Veja Mais &raquo;</a></p>';
+			echo '<p class="h5 text-danger" > R$'.$dado["preco"]. "</p>";
+			print '<p><a class="btn btn-secondary" href="pages/produto'.$i.'.php">Veja Mais &raquo;</a></p>';
 			print	"</div><!-- /.col-lg-4 -->";
 		};
 				
